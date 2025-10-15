@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  grid-gap: 30px;
+  padding: 20px 30px;
+  display: grid;
+  grid-template-columns: 0.8fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 0.8fr;
+  grid-template-areas: "section1 section2 section2 section2" "section1 section3 section4 section5";
+}
+main section:nth-child(1) {
+  background-color: rosybrown;
+  grid-area: section1;
+  border-radius: 20px;
+  background-image: url(https://images.unsplash.com/photo-1535745014368-a38751aeb5d6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+  background-repeat: center;
+  background-size: cover;
+}
+main section:nth-child(2) {
+  background-color: darkgreen;
+  grid-area: section2;
+  border-radius: 20px;
+  background-image: url(./lady.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(3) {
+  background-color: darkkhaki;
+  grid-area: section3;
+  border-radius: 20px;
+  background-image: url(https://images.unsplash.com/photo-1640996706610-f88ca69f2e7c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(4) {
+  background-color: darkmagenta;
+  grid-area: section4;
+  border-radius: 20px;
+  background-image: url(https://images.unsplash.com/photo-1630781141487-cc629ab25bf1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(5) {
+  background-color: darkorange;
+  grid-area: section5;
+  border-radius: 20px;
+  background-image: url(https://images.unsplash.com/photo-1742201906101-428bb48b9866?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=765);
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=style.css.map */
